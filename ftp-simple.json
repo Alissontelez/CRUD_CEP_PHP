@@ -1,0 +1,13 @@
+[
+	{
+		"name": "Róstezito",
+		"host": "ftpupload.net",
+		"port": 21,
+		"type": "ftp",
+		"username": "epiz_32405864",
+		"password": "ADutZf0u0Z",
+		"path": "/",
+		"autosave": true,
+		"confirm": false
+	}
+]

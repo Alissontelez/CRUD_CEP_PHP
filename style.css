@@ -1,0 +1,25 @@
+.head-portifa {
+    padding: 40px;
+    text-align: center;
+}
+
+.Caixalink {
+    padding: 40px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-color: #18afa3;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    font-size: 37pt;
+    font-family: cursive;
+}
+
+.Caixalink a {
+    color: #adadad;
+    text-decoration: none;
+}
+
+.Caixalink a:hover {
+color: rgb(54, 185, 142);
+}
