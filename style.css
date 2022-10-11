@@ -1,25 +1,47 @@
 .head-portifa {
-    padding: 40px;
-    text-align: center;
+    padding: 17px;
+}
+
+.head-portifa img {
+    max-width: 52%;
+    margin: auto;    
 }
 
 .Caixalink {
-    padding: 40px;
+    padding: 2%;
     text-align: center;
-    background-color: #f0f0f0;
-    border-color: #18afa3;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 7px;
-    font-size: 37pt;
+    font-size: 17pt;
     font-family: cursive;
+    margin-top: 7% !important;
+    margin-bottom: 7%;
 }
 
-.Caixalink a {
-    color: #adadad;
-    text-decoration: none;
+#botao-cep {
+    background-color: #18afa3;
+    color:rgb(223, 223, 223);
 }
 
-.Caixalink a:hover {
-color: rgb(54, 185, 142);
+#botao-cep:hover {
+    color: rgb(187, 187, 187) !important;
+    background-color: #1aa196;
+}
+
+#conteudo {
+    display: none;
+}
+
+#minhaDiv {
+    display: none;
+  }
+
+#minhaDiv2 {
+    display: none;
+}
+
+#minhaDiv3 {
+    display: none;
+}
+
+#minhaDiv4 {
+    display: none;
 }
