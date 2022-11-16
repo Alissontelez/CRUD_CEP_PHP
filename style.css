@@ -10,10 +10,16 @@
 .Caixalink {
     padding: 2%;
     text-align: center;
-    font-size: 17pt;
+    font-size: 19pt;
     font-family: cursive;
-    margin-top: 7% !important;
-    margin-bottom: 7%;
+    margin-top: 2% !important;
+}
+
+.Caixalink2 {
+    margin-bottom: 1%;;
+    text-align: center;
+    font-size: 19pt;
+    font-family: cursive;
 }
 
 #botao-cep {
@@ -26,22 +32,426 @@
     background-color: #1aa196;
 }
 
-#conteudo {
+#divPrincipal {
     display: none;
 }
 
-#minhaDiv {
+#botao-pesquisar{
+    background-color: #18afa3;
+    color:rgb(223, 223, 223);
+}
+
+#botao-pesquisar:hover {
+    color: rgb(187, 187, 187) !important;
+    background-color: #1aa196;
+}
+
+#botao-consultar{
+    background-color: #18afa3;
+    color:rgb(223, 223, 223);
+}
+
+#botao-consultar:hover {
+    color: rgb(187, 187, 187) !important;
+    background-color: #1aa196;
+}
+
+#cep {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#cep2 {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#cepup {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#rua {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#rua2 {
+    width: 40%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#ruaup {
+    width: 47%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#bairro {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#bairro2 {
+    width: 40%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#bairroup {
+    width: 47%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#cidade {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#cidade2 {
+    width: 40%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#cidadeup {
+    width: 47%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#uf {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#uf2 {
+    width: 40%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#ufup {
+    width: 47%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#digite {
+    color: #1aa196;
+    text-align: center;
+}
+
+#digiterua {
+    color: #1aa196;
+    text-align: center;
+}
+
+#digitebairro {
+    color: #1aa196;
+    text-align: center;
+}
+
+#digitecidade {
+    color: #1aa196;
+    text-align: center;
+}
+
+#digiteestado {
+    color: #1aa196;
+    text-align: center;
+}
+
+#pesquisarCep {
     display: none;
   }
 
-#minhaDiv2 {
+#tabelapesquisada {
     display: none;
 }
 
-#minhaDiv3 {
+
+#rotulo2 {
+    margin-top: 2%;
+} 
+
+#aceite {
+    margin-top: 4px;
+}
+
+#bt-modal {
+    margin-bottom: 5px;
+}
+
+.rotolex {
+    padding: 2px;
+}
+
+#ceppesq {
+    color: #18afa3;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#nocep {
+    display: none;
+    color:red;
+    margin-left: 12%;
+}
+
+#nocep2 {
+    display: none;
+    color:red;
+    text-align: center;
+}
+
+#nocepup {
+    display: none;
+    color:red;
+    text-align: center;
+}
+
+#invalidCep {
+    display: none;
+    color:red;
+    margin-left: 14%;
+    width: 770px;
+}
+
+#invalidCep2 {
+    display: none;
+    color:red;
+    text-align: center;
+}
+
+#invalidCepup {
+    display: none;
+    color:red;
+    text-align: center;
+}
+
+#enter {
+    background-color: #18afa3;
+    color:rgb(223, 223, 223);
+    border: none;
+    font-family: cursive;
+    display: none;
+    width: 17%;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+
+#enter:hover {
+    color: rgb(187, 187, 187) !important;
+    background-color: #1aa196;
+}
+
+#lb_check{
+    color:red;
+}
+
+#bt-dailogue {
+    margin-left: 19%;
+}
+
+#check {
+    margin-top: 11px;
+}
+
+#aceito {
+    margin-top: 9px;
+}
+
+#bt-off {
+    background-color: #18afa3;
+    color:rgb(223, 223, 223);
+    border: none;
+    font-family: cursive;
+    width: 17%;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+
+#pesquisar {
+    background-color: #18afa3;
+    color:rgb(223, 223, 223);
+    border: none;
+    font-family: cursive;
+    width: 17%;
+    margin-top: 2%;
+    margin-left: 1%;
     display: none;
 }
 
-#minhaDiv4 {
+#pesquisar:hover {
+    color: rgb(187, 187, 187) !important;
+    background-color: #1aa196;
+}
+
+#delete {
+    background-color: rgb(172, 49, 49);
+}
+
+.btn-toggle.editarAtual {
+    background-color: #7d469c;
+    color: #e4e4e4;
+    border: none;
+    font-family: cursive;
+}
+
+.btn-toggle.editarAtual:hover {
+    background-color: #5d2a7a;
+    color: rgb(184, 181, 181);
+}
+
+.btn-toggle.cancelarAtual {
+    background-color: #7d469c;
+    color: #e4e4e4;
+    border: none;
+    font-family: cursive;
     display: none;
+}
+
+.btn-toggle.cancelarAtual:hover {
+    background-color: #5d2a7a;
+    color: rgb(184, 181, 181);
+}
+
+a.edit_data {
+    background-color: #7d469c;
+    color: #e4e4e4;
+    border: none;
+    font-family: cursive;
+}
+
+a.edit_data:hover {
+    background-color: #5d2a7a;
+    color: rgb(184, 181, 181);
+}
+
+#atualizar {
+    background-color: #18afa3;
+    color:rgb(223, 223, 223);
+    border: none;
+    font-family: cursive;
+    width: 17%;
+}
+
+#updatePesquisada {
+    background-color: #18afa3;
+    color:rgb(223, 223, 223);
+    border: none;
+    font-family: cursive;
+}
+
+#atualizar:hover {
+    color: rgb(187, 187, 187);
+    background-color: #1aa196;
+}
+
+#updatePesquisada:hover {
+    color: rgb(187, 187, 187);
+    background-color: #1aa196;
+}
+
+#klose {
+    background-color: rgb(226, 226, 226);
+    color: rgb(247, 163, 67);
+    border: none;
+    font-family: cursive;
+}
+
+#fecharpesquisada {
+    background-color: rgb(226, 226, 226);
+    color: rgb(247, 163, 67);
+    border: none;
+    font-family: cursive;
+}
+
+#fecharUP {
+    background-color: rgb(226, 226, 226);
+    color: rgb(247, 163, 67);
+    border: none;
+    font-family: cursive;
+}
+
+
+#klose:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(238, 139, 58);
+}
+
+#fecharpesquisada:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(238, 139, 58);
+}
+
+#fecharUP:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(238, 139, 58);
+}
+
+#delete:hover {
+    background-color: rgb(153, 42, 42);
+    color: rgb(184, 181, 181);
+}
+
+#formAbre {
+    background-color: #1aa196;
+    color: rgb(201, 201, 201);
+    padding: 2%;
+    text-align: center;
+    border-color: bisque;
+    border-style: solid;
+}
+
+.ui-dialog-title{
+    color:#18afa3 !important;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+	text-align: left;
+	border-style: solid;
+	background-color: #18afa3;
+    border-color: bisque;
+	margin-top: .3em;
+	padding: .3em 1em .5em .4em;
+}
+
+.ui-dialog-title {
+    color: rgb(201, 201, 201);
+    font-size: 14pt;
+}
+
+.ui-dialog-titlebar-close:after {
+    content: 'X' !important;
+    position: absolute;
+    top: -5px;
+    right: 2px;
+ }
+
+#tituloModal {
+    color: #18afa3;
+}
+
+#body-up {
+    color: #18afa3;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+
+#tb1 {
+    background-color: rgb(223, 223, 223);
+    color: #18afa3;
+    margin-top: 1%;
+    text-align: center;
 }

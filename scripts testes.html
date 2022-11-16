@@ -1,0 +1,54 @@
+<script>
+
+</script>
+
+---------------------------------------------------------------------------
+
+
+$.getJSON("https://viacep.com.br/ws/"+ cep +"/json/?callback=?", function(dados) {
+
+    if (!("erro" in dados)) {
+    
+    //envio modalAtual
+    var cep = $("#cep").val();
+    //var rua = $("#rua").val();
+    //var bairro = $("#bairro").val();
+    //var cidade = $("#cidade").val();
+    //var uf = $("#uf").val();
+    $('#cepAtual').html(cep);
+    $('#ruaAtual').html(dados.logradouro);
+    $('#bairroAtual').html(dados.bairro);
+    $('#cidadeAtual').html(dados.localidade);
+    $('#ufAtual').html(dados.uf);
+    
+
+    var data = {
+        action: action,
+        //id: $("#id").val(), tá funcionando sem
+        cep: $("#cep").val(),
+        //rua: dados.logradouro,
+        //bairro: dados.bairro,
+        //cidade: dados.localidade,
+        //uf: dados.uf,
+        rua: $(dados.logradouro).val(),
+        bairro: $(dados.bairro).val(),
+        cidade: $(dados.localidade).val(),
+        uf: $(dados.uf).val(), 
+    };
+    else {
+        alert("CEP não encontrado");
+    }
+    }
+    }); //fecham. getJSON
+    $.ajax({
+        url: 'function.php',
+        type: 'POST',
+        data: data,
+        success:function(response){
+            $("#modalAtual").modal('show');
+            $("#cep").val("");
+            $('#nocep').hide();
+            $('#invalidCep').hide();
+            $('#cep').css("border-color", "#ced4da"); 
+        }      
+        });
