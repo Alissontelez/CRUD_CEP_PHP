@@ -1,4 +1,4 @@
-<?php require 'crud-cep.php';
+<?php require 'connection.php';
 ?>
 
 <?php

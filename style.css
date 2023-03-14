@@ -7,6 +7,11 @@
     margin: auto;    
 }
 
+.img-head img {
+    max-width: 52%;
+    margin: auto;    
+}
+
 .Caixalink {
     padding: 2%;
     text-align: center;
@@ -30,6 +35,60 @@
 #botao-cep:hover {
     color: rgb(187, 187, 187) !important;
     background-color: #1aa196;
+}
+
+#botao-shop {
+    background-color: #18628d;
+    color:rgb(223, 223, 223);
+}
+
+#botao-shop:hover {
+    color: rgb(187, 187, 187) !important;
+    background-color: #155275;
+}
+
+#bt-painel {
+    background-color: rgb(44, 230, 121);
+    color: black;
+    border: none;
+}
+
+#bt-painel:hover {
+    color: rgb(226, 226, 226);
+    background-color: rgb(19, 158, 93);
+}
+
+#vai-shop, #edit-usuário, #edit-email, #edit-senha {
+    background-color: rgb(44, 230, 121);
+    color: black;
+    border: none;
+}
+
+#vai-shop:hover, #edit-usuário:hover, #edit-email:hover, #edit-senha:hover{
+    color: rgb(226, 226, 226);
+    background-color: rgb(19, 158, 93);
+}
+
+#bt-dados {
+    background-color: rgb(44, 230, 121);
+    color: black;
+    border: none;
+}
+
+#bt-dados:hover {
+    color: rgb(226, 226, 226);
+    background-color: rgb(19, 158, 93);
+}
+
+#histórico {
+    background-color: rgb(44, 230, 121);
+    color: black;
+    border: none;
+}
+
+#histórico:hover {
+    color: rgb(226, 226, 226);
+    background-color: rgb(19, 158, 93);
 }
 
 #divPrincipal {
@@ -239,6 +298,18 @@
     text-align: center;
 }
 
+#nosinha, #nosinha-c, #noimail, #noemail, #nousername, #jaimail, #noname, #nosenha, #senhadif,
+#error, #senhadif2, #e-invalid {
+    display: none;
+    color:rgb(160, 47, 212);
+    background-color: white;
+}
+
+#noemail2, #invalid2, #noarea{
+    display: none;
+    color:rgb(160, 47, 212);
+    background-color: white;
+}
 #enter {
     background-color: #18afa3;
     color:rgb(223, 223, 223);
@@ -454,4 +525,649 @@ a.edit_data:hover {
     color: #18afa3;
     margin-top: 1%;
     text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+    display: none;
+    margin-bottom: 1%;
+}
+.dropbtn {
+    background-color: #3189bd;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    text-align: left;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 127px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content button:hover {
+    background-color: rgb(224, 128, 63);
+    color: white;
+}
+
+.dropdown-content button {
+    color: rgb(233, 118, 41);
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #18628d;}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 250px;
+    margin: auto;
+    text-align: center;
+}
+
+#qtde {
+    width: 52%;
+    text-align: center;
+}
+
+#qtde-txt {
+    margin-right: -40px;
+    margin-left: 22px;
+    margin-top: 3px;
+}
+
+#bc {
+    color: #b8b8b8;
+}
+.card button {
+    border: none;
+    outline: 0;
+    padding: 8px;
+    color: #e4e4e4;
+    background-color: #18afa3;
+    text-align: center;
+    font-family: cursive;
+}
+
+.card button:hover {
+    background-color: #169b90;
+    color:#b8b8b8;
+}
+
+.price {
+    float: right;
+    color: rgb(230, 128, 33);
+    font-size: 20px;
+}
+
+.produtos-cafezito {
+    display: none;
+}
+
+.produtos-leite {
+    display: none;
+}
+
+.produtos-refri {
+    display: none;
+}
+
+.produtos-feijao {
+    display: none;
+}
+
+.produtos-arroz {
+    display: none;
+}
+
+#box {
+    background: linear-gradient(to right, #14405a, #18628d);
+    color: white;
+    width: 370px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    min-height: 240px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#box input {
+    width: 270px;
+    margin: auto;
+}
+
+#box2 {
+    background: linear-gradient(to right, #14405a, #18628d);
+    color: white;
+    width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+    box-sizing: border-box;
+    min-height: 240px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 17px;
+}
+
+#box2 input {
+    width: 270px;
+    margin: auto;
+}
+
+#contato {
+    display: none;
+}
+
+#autentica {
+    display: none;
+}
+
+#formCadastro {
+    background: linear-gradient(to right, #14405a, #18628d);
+    color: white;
+    width: 370px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    min-height: 370px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#formCadastro input {
+    width: 270px;
+    margin: auto;
+}
+
+#cadastrar {
+    margin-top: 4%;
+    background-color: #ffffff;
+    color: rgb(160, 47, 212);
+    border: none;
+}
+
+#cadastrar:hover {
+    background-color:rgb(149, 35, 153);
+    color: #ffffff;
+}
+
+#add-email {
+    margin-top: 3%;
+}
+
+#login {
+    margin-top: 4%;
+    background-color: #ffffff;
+    color: rgb(160, 47, 212);
+    border: none;
+}
+
+#login:hover {
+    background-color:rgb(149, 35, 153);
+    color: #ffffff;
+}
+
+#criarc {
+    margin-top: 4%;
+    background-color: #ffffff;
+    color: rgb(160, 47, 212);
+    border: none;
+}
+
+#criarc:hover {
+    background-color:rgb(149, 35, 153);
+    color: #ffffff;
+}
+
+#enviar-conta {
+    margin-top: 4%;
+    background-color: #ffffff;
+    color: rgb(160, 47, 212);
+    border: none;
+}
+
+#enviar-conta:hover {
+    background-color:rgb(149, 35, 153);
+    color: #ffffff;
+}
+
+#error{
+    background-color: #ffffff;
+    color: rgb(160, 47, 212);
+    margin-top: 4%;
+}
+
+#cadastroOK {
+    background-color: rgb(160, 47, 212);
+    color: white;
+    width: fit-content;
+}
+
+#car-vazio {
+    background-color: rgb(160, 47, 212);
+    color: white;
+    width: fit-content;
+    display: none;
+}
+
+#contatoOK {
+    background-color: rgb(160, 47, 212);
+    color: white;
+    width: fit-content;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+#autenticado {
+    display: none;
+    padding: 1%; 
+    background-color: black;
+    color:#e4852c;
+    margin-bottom: 1%;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+#sair {
+    background-color: white;
+    color: #df3b3b;
+    border: none;
+}
+
+#sair:hover {
+    background-color: #df3b3b;
+    color: white;
+}
+
+#del-conta {
+    background-color: white;
+    color: #df3b3b;
+    border: none;
+}
+
+#del-conta:hover {
+    background-color: #df3b3b;
+    color: white;
+}
+
+#painel {
+    padding: 1%; 
+    background-color: black;
+    color:#e4852c;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    width: fit-content; 
+    border-radius: 20px;
+}
+
+#detalhe-add {
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    margin: auto;
+    width: fit-content;
+    max-width: 870px;
+}
+
+.btn-primary.add-cart {
+    background-color: #2ac1db;
+    color: white;
+    border: none;
+}
+
+.btn-primary.add-cart:hover {
+    background-color: #26a8be;
+    color: rgb(226, 226, 226);
+}
+
+#bt-com-café1, #bt-com-ducafe, #bt-com-vaquita, #bt-com-muuu, #bt-com-tombaina, #bt-com-kuest, #bt-com-campeiro,
+#bt-com-docampo, #bt-com-sertanejo, #bt-com-mingau {
+    background-color: #2ac1db;
+    color: white;
+    border: none;
+    margin-top: 1%;
+}
+
+#bt-com-café1:hover, #bt-com-ducafe:hover, #bt-com-vaquita:hover, #bt-com-muuu:hover, #bt-com-tombaina:hover, #bt-com-kuest:hover, #bt-com-campeiro:hover,
+#bt-com-docampo:hover, #bt-com-sertanejo:hover, #bt-com-mingau:hover {
+    background-color: #26a8be;
+    color: rgb(226, 226, 226);
+}
+
+#bt-com-café2 {
+    background-color: #2ac1db;
+    color: white;
+    border: none;
+    margin-top: 1%;
+}
+
+#bt-com-café2:hover {
+    background-color: #26a8be;
+    color: rgb(226, 226, 226);
+}
+
+#qtde-det-h, #det-frete-h, #det-total-h {
+    color: #169b90;
+}
+
+#qtde-det-i {
+    width: 37%;
+}
+
+#input-car {
+    width: 37%;
+    margin: auto;
+    text-align: center;
+}
+
+#qtde-det-h {
+    margin-left: 79px;
+    margin-top: 7px;
+}
+
+#det-frete-h {
+    margin-left: 65px;
+    margin-top: 7px;
+}
+
+#desc-café1 {
+    display: none;
+}
+
+#desc-café2 {
+    display: none;
+}
+
+#desc-ducafe {
+    display: none;
+}
+
+#desc-vaquita {
+    display: none;
+}
+
+#desc-muuu {
+    display: none;
+}
+
+#desc-kuest {
+    display: none;
+}
+
+#desc-tomba {
+    display: none;
+}
+
+#desc-campo {
+    display: none;
+}
+
+#desc-campeiro {
+    display: none;
+}
+
+#desc-sertanejo {
+    display: none;
+}
+
+#desc-mingau {
+    display: none;
+}
+
+.desc-geral{
+    padding: 2px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+::selection {
+    color:white;
+    background-color: rgb(156, 36, 180);
+}
+
+.desc-geral h4 {
+    color: #169b90;
+    background-color: #316b75;
+    width: fit-content;
+    padding: 2px;
+    margin: auto;
+}
+
+.desc-geral h5{
+    background-color: #aad4db;
+    color: white;
+    padding: 7px;
+    width: fit-content;
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#enviar-café1, #enviar-café2, #enviar-ducafe, #enviar-vaquita, #enviar-muuu, #enviar-tombaina, #enviar-kuest,
+#enviar-docampo, #enviar-campeiro, #enviar-sertanejo, #enviar-mingau {
+    display: none;
+}
+
+textarea {
+    min-width: 400px;
+}
+
+.btn-primary.editCO-café1, .btn-primary.editCO-mingau, .btn-primary.editCO-sertanejo, .btn-primary.editCO-campeiro, .btn-primary.editCO-docampo, .btn-primary.editCO-kuest, .btn-primary.editCO-tombaina, .btn-primary.editCO-muuu, .btn-primary.editCO-café2, .btn-primary.editCO-vaquita, .btn-primary.editCO-ducafé {
+    background-color: #18628d;
+}
+
+.btn-primary.editCO-café1:hover, .btn-primary.editCO-mingau:hover, .btn-primary.editCO-sertanejo:hover, .btn-primary.editCO-campeiro:hover, .btn-primary.editCO-docampo:hover, .btn-primary.editCO-kuest:hover, .btn-primary.editCO-tombaina:hover, .btn-primary.editCO-muuu:hover, .btn-primary.editCO-vaquita:hover, .btn-primary.editCO-café2:hover, .btn-primary.editCO-café2:hover {
+    background-color: #14405a;
+    color: rgb(228, 228, 228);
+}
+
+#update-café1, #update-café2, #update-ducafé, #update-vaquita, #update-muuu, #update-tombaina, #update-kuest, #update-docampo,
+#update-campeiro, #update-sertanejo, #update-mingau, .btn-primary.update-usuário, #update-email, #update-senha {
+    background-color: #2ac1db;
+    border: none;
+}
+
+#update-café1:hover, #update-café2:hover, #update-ducafé:hover, #update-vaquita:hover, #update-muuu:hover, #update-tombaina:hover, 
+#update-kuest:hover, #update-docampo:hover, #update-campeiro:hover, #update-sertanejo:hover, #update-mingau:hover, 
+.btn-primary.update-usuário:hover, #update-email:hover, #update-senha:hover {
+    background-color: #26acc4;
+    color: rgb(231, 231, 231);
+}
+
+#fechar-café1, #fechar-café2, #fechar-ducafé, #fechar-vaquita, #fechar-muuu, #fechar-tombaina, 
+#fechar-kuest, #fechar-docampo, #fechar-campeiro, #fechar-sertanejo, #fechar-mingau, #fechar-usuário,
+#fechar-email, #fechar-senha {
+    background-color: rgb(226, 226, 226);
+    color: rgb(247, 163, 67);
+    border: none;
+}
+
+#fechar-café1:hover, #fechar-café2:hover, #fechar-ducafé:hover, #fechar-vaquita:hover, #fechar-muuu:hover, #fechar-tombaina:hover, 
+#fechar-kuest:hover, #fechar-docampo:hover, #fechar-campeiro:hover, #fechar-sertanejo:hover, 
+#fechar-mingau:hover, #fechar-usuário:hover, #fechar-email:hover, #fechar-senha:hover {
+    color: rgb(218, 218, 218);
+    background-color: rgb(238, 139, 58);
+}
+
+#tb_compra {
+    background-color: #aeffd9;
+    display: none;
+}
+
+#dados {
+    display: none;
+    padding: 1%; 
+    background-color: black;
+    color:#e4852c;
+    margin-bottom: 1%;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+#editar-usuário, #editar-email, #editar-senha {
+    padding: 1%; 
+    background-color: black;
+    color:#e4852c;
+    margin-bottom: 1%;
+    width: fit-content;
+    border-radius: 20px;
+    display: none;
+}
+
+#no-user, #sem-email, #difere-senha, #nop-senha {
+    display: none;
+}
+
+#slideshow {
+    display: none;
+    width: 500px;
+    margin: auto;
+}
+
+#slideshow img {
+    cursor: pointer;
+}
+
+.capz {
+    background-color: #6d4f4f;
+    border-radius: 20px;
+    opacity: .84;
+}
+
+#carrito {
+    display: none;
+}
+
+.itemQtde {
+ margin-left: 7px;
+}
+
+#tb-carrito {
+    width: fit-content;
+    padding: 2px;
+    margin: auto;
+}
+
+#tb-carritz {
+    width: fit-content;
+    padding: 2px;
+    margin: auto;
+}
+
+.excluir {
+    text-decoration: none;
+}
+
+#itemCount {
+    position: absolute;
+    display: none;
+    top: -8px;
+    right: -3px;
+    width: 21px;
+    height: 21px;
+    border-radius: 40%;
+    background-color: red;
+    color: white;
+    padding: -4% !important;
+  }
+
+#qtde-car {
+    width: 37%;
+    margin: auto;
+}
+
+#img-car {
+    width: 47px;
+}
+
+#cont-compras2, #cont-compras3 {
+    display: none;
+}
+
+#total-pagar, #valor-pagar {
+    font-weight: bold;
+}
+
+#pesquisar-prod {
+    width: 27%;
+    display: none;
+    margin: auto;
+}
+
+#no-corresp {
+    color: white;
+    background-color: #286d96;
+    width: fit-content;
+    margin: auto;
+}
+
+#cep-frete, #rua-frete, #bairro-frete, #cidade-frete, #uf-frete, #valor-frete {
+    color: #7e2eac;
+}
+
+#invalidCep-f, #nocep-f {
+    color: white;
+    background-color: #7e2eac;
+    width: fit-content;
+    margin: auto;
+    margin-top: 7px;
+    display: none;
+}
+
+#input-frete {
+    border: none;
+}
+
+#tb-frete {
+    font-size: 14pt;
+    text-align: center;
+}
+
+#endereço {
+    color:rgb(104, 207, 255);
+    background-color: #f3f3f3;
+    width: fit-content;
+    display: none;
+}
+
+#bt-endereço {
+    background-color: #2277a8;
+    border: none;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#sem-rua, #sem-número, #sem-bairro, #sem-cidade, #sem-estado {
+    display: none;
+    color: white;
+    background-color: #7e2eac;
+}
+
+#venda {
+    color:rgb(104, 207, 255);
+    background-color: #f3f3f3;
+    width: fit-content;
+    display: none;
 }

@@ -1,5 +1,5 @@
 <?php
-require "crud-cep.php";
+require "connection.php";
 ?>
     
     <table class="table" id="tb1">

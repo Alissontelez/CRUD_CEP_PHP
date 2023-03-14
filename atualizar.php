@@ -1,5 +1,5 @@
 <?php
-    require 'crud-cep.php';
+    require 'connection.php';
 
     $id = $_POST['id'];
     $cep = $_POST['cep'];
